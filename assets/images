@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby Birthday</title>
+    <style>
+        body {
+            /* Updated background styling */
+            background-image: url('https://example.com/cute-cat-birthday-greeting.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, Abby!</h1>
+</body>
+</html>
