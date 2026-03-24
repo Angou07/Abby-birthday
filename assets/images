@@ -7,7 +7,7 @@
     <style>
         body {
             /* Updated background styling */
-            background-image: url('https://example.com/cute-cat-birthday-greeting.jpg'); /* Replace with actual image URL */
+            background-image: url('https://i.pinimg.com/736x/f0/50/cc/f050cceb6800bdc1f19bdbf0b5069436.jpg'); /* Replace with actual image URL */
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
