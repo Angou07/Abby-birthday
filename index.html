@@ -3,37 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>陈开馨 生日快乐!</title>
+    <title>Abby 生日快乐!</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #FFB6E1 0%, #DDA0DD 50%, #87CEEB 100%);
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            padding: 20px;
         }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
         h1 {
             color: #ff69b4;
+            font-size: 3em;
+            margin: 0 0 20px 0;
         }
+        
+        p {
+            color: #333;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        h2, h3 {
+            color: #333;
+            margin-top: 30px;
+        }
+        
         audio {
-            margin: 20px;
+            margin: 15px;
+            width: 300px;
         }
     </style>
 </head>
 <body>
-    <h1>陈开馨 生日快乐！！</h1>
-    <p>Wishing you all the joy and happiness on your special day!</p>
-    <h2>Special Messages:</h2>
-    <h3>Anime Character Voice Message:</h3>
-    <audio controls>
-        <source src="path/to/anime_character_message.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <h3>Idol Greetings:</h3>
-    <audio controls>
-        <source src="path/to/idol_greeting.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <p>Enjoy your day filled with love and laughter!</p>
+    <div class="container">
+        <h1>🎉 Abby 生日快乐！！🎉</h1>
+        <p>祝你生日快乐，身体健康，开心每一天！</p>
+        
+        <h2>💕 特别祝福语音</h2>
+        
+        <h3>🌸 二次元角色祝福</h3>
+        <audio controls>
+            <source src="assets/audio/anime/message1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <h3>⭐ 偶像祝福</h3>
+        <audio controls>
+            <source src="assets/audio/idols/greeting1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <p style="margin-top: 40px; color: #ff69b4; font-size: 1.5em;">✨ 祝你的生日闪闪发光！✨</p>
+    </div>
 </body>
 </html>
